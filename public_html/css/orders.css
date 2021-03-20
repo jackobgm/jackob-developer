@@ -1,0 +1,22 @@
+.btn-filtro-orders {
+	border: 1px solid #1F4967;
+	background: #fafafa;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	padding: .5rem .75rem;
+	font-size: 1rem;
+	line-height: 1.25;
+	border-radius: .25rem;
+	transition: all .15s ease-in-out;
+	color: #0068a3;
+}
+
+.btn-filtro-orders:hover {
+	background: #f4f4f4;
+	text-decoration: none;
+	border-color: #1F4967;
+	color: #014e7a;
+}

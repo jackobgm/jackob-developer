@@ -1,0 +1,276 @@
+.aside-c {
+	background: #FAFAFA;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.org-color {
+    color: #f70 !important;
+}
+
+.range-form-sm {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.range-form {
+    background: #f4f4f4;
+    padding: 10px 20px;
+	border-radius: 7px;
+    margin-bottom: 18px;
+}
+
+.range-form-sm .title {
+    font-size: 14px;
+}
+
+.range-form .title {
+    padding: 0;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+}
+
+.form-row label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.pull-left {
+    float: left;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.da, .pa, .mr {
+    width: 35px !important;
+    padding: 0px 5px;
+}
+
+.pull-right {
+    float: right;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 6px 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.div-result {
+	padding: 0 0 0 40px;
+	position: relative;
+	min-height: 850px;
+}
+
+.table-bordered {
+    border: 1px solid #e9ecef;
+    background: #FFF;
+}
+
+.rTable td {
+    padding: 7px;
+    font-size: 13px;
+}
+
+.title-td {
+	color: #FFF;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #e9ecef;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #e9ecef;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.links {
+	text-align: center;
+}
+
+.rTable .addtocart {
+    padding: 3px 8px;
+    font-size: 11px;
+    background: #6eaf38 !important;
+    border-color: #64ad29 #64ad29 #090 !important;
+    color: #fff !important;
+}
+
+.rTable .addtocart:hover {
+    background: #5b922e;
+    border-color: #64ad29 #64ad29 #090;
+}
+
+.item-row:hover {
+    background-color: #FFFBE2;
+}
+
+td a {
+    text-decoration: none;
+    color: #0068a3;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.rTable td .fa-external-link {
+    font-size: 12px;
+    color: #AAA8A8;
+}
+
+.fa-external-link::before {
+    content: "\f08e";
+}
+
+.web-detail {
+	color: #dc3545 !important;
+}
+
+.web-detail:hover {
+	text-decoration: underline;
+}
+
+.lh-input {
+    line-height: 35px !important;
+}
+
+.low-limit, .hight-limit {
+    padding: 6px 6px !important;
+}
+
+.btn-price {
+    background: #0090bf;
+    border-color: #0088b4 #0088b4 #00698b;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    transition: all .15s ease-in-out;
+}
+
+.btn-price:hover {
+    background: #00789f;
+    border-color: #00789f #00789f #00698b;
+}
+
+.btn-price .fa {
+    margin-right: 5px;
+}
+
+.fa-chevron-right::before {
+    content: "\f054";
+}
+
+.form-row {
+    padding-bottom: 10px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.form-row label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+label.fw {
+    width: 100%;
+}
+
+label input {
+    margin-right: 10px;
+}
+
+body {
+    color: #212529;
+}
+
+.message {
+    padding: 30px 50px 100px 10px;
+}
+
+.main-heading {
+    font-size: 42px;
+    margin-bottom: 30px;
+    display: block;
+    font-weight: 400;
+    color: #3c3c3c;
+    line-height: 60px;
+}
+
+.big-text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.contact-message {
+    padding: 30px 50px 100px 10px;
+}
+
+.btn-submit-message {
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: all .15s ease-in-out;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background: #0090bf;
+    border-color: #0088b4 #0088b4 #00698b;
+    border-radius: 3px;
+}
+
+.btn-submit-message:hover {
+    background: #00789f;
+    border-color: #00789f #00789f #00698b;
+}
+
+.fetching {
+    text-align: center;
+    opacity: .6;
+    background: gray;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+}

@@ -1,0 +1,43 @@
+body {
+	font-size: 14px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    width: 360px;
+}
+
+.search-heading {
+	border-color: #0090bf;
+	border-radius: 0;
+	line-height: 1.55;
+	height: auto;
+	padding: 10px;
+}
+
+.search-container {
+	width: 360px;
+}
+
+.heading {
+	margin-top: 2rem;
+}
+
+.input-group-addon {
+    border-color: #0090bf;
+    background-color: #0090bf;
+    color: #fff;
+    border-radius: 0;
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.15);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

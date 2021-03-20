@@ -1,0 +1,104 @@
+.btn {
+    color: #fff;
+    border: none;
+    background-color: #6eaf38;
+}
+
+.btn:hover {
+    background-color: #5b922e;
+}
+
+.btnIcon {
+    margin-right: .2rem;
+    display: inline-block;
+}
+
+.loginC {
+    display: flex;
+    width: 100%;
+    padding: 2rem 2.5rem;
+}
+
+.loginCF {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    padding-top: 0;
+    border-right: 1px solid #ccc;
+}
+
+.formStarted {
+    width: 60%;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    width: 100%;
+    height: 2.5rem;
+    border: 1.75px solid #4682b4;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.names {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 1rem;
+}
+
+.formLinks {
+    color: #003eb1;
+}
+
+.submit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.lostP {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    color: #4882b4;
+}
+
+.titleF {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+
+.valid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #198754;
+}
+
+@media(max-width: 768px){
+	.loginC{
+		display: block;
+	}
+	.loginC>*{
+		width: 100%;
+		border: none;
+	}
+}

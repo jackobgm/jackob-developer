@@ -1,0 +1,77 @@
+.principal {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.sRefund {
+    color: #ff0000;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #212529;
+    padding: 1rem;
+}
+
+.header>* {
+    font-size: 1rem;
+}
+
+.sT,
+.i {
+    color: #b6b6b6;
+}
+
+.i {
+    font-style: italic;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.p>.i {
+    margin: 0;
+    color: #333;
+}
+
+.element {
+    margin-bottom: 2rem;
+}
+
+.element.s {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.titleE {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #333;
+}
+
+.p {
+    margin-bottom: 1rem;
+    color: #333333;
+    font-size: 0.9rem;
+}
+
+.titleH {
+    font-weight: 700;
+}
+
+.aP {
+    color: #29638d;
+}
+
+@media(max-width: 768px) {
+    .main {
+        width: 90%;
+    }
+}

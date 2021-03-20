@@ -1,0 +1,254 @@
+.main {
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.titleMain {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.mainH1 {
+    color: #a79e9e;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.sellC {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.cardSell {
+    padding: 3rem 0;
+}
+
+.iconCard {
+    font-size: 4.55rem;
+    color: #494949;
+    margin-bottom: 2rem;
+}
+
+.titleCard {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.descriptionCard {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+}
+
+.btnIcon {
+    margin-right: .2rem;
+    display: inline-block;
+}
+
+.promotionSeo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 3rem;
+    padding-bottom: 7rem;
+    grid-gap: 0 3rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.pSDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleSeo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #494949;
+    margin-bottom: 2.75rem;
+}
+
+.descriptionSeo {
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.moreSpecification {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    grid-gap: 1rem;
+}
+
+.iconMS {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.titleMS {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.pMS {
+    color: #494949;
+}
+
+.supported {
+    padding: 4rem 3rem 8rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.supportedTitle {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.miniArticles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem 2rem;
+}
+
+.headArticle {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.iconArticle {
+    display: inline-block;
+    color: #ff7700ee;
+    margin-right: 0.7rem;
+}
+
+.titleArticle {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.descriptionArticle {
+    color: #494949;
+    line-height: 1.3;
+    font-size: 0.9rem;
+}
+
+.getStarted {
+    display: flex;
+    width: 100%;
+    padding: 2rem 2.5rem;
+}
+
+.started {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 2rem;
+    border-right: 1px solid #ccc;
+}
+
+.startedTitle {
+    color: #373737;
+    font-size: 2.5rem;
+    padding: 3rem 0;
+    margin-bottom: 1rem;
+}
+
+.startedDescription {
+    font-size: 1.4rem;
+    color: #212529;
+    padding-bottom: 3rem;
+    line-height: 2rem;
+}
+
+.formStarted {
+    width: 60%;
+    padding: 2rem;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    width: 100%;
+    height: 2.5rem;
+    border: 1.75px solid #4682b4;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.names {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 1rem;
+}
+
+.formLinks {
+    color: #003eb1;
+}
+
+.submit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+@media(max-width: 768px) {
+    .moreSpecification {
+        display: block;
+    }
+
+    .miniArticles {
+        display: block;
+        text-align: left;
+    }
+
+    .getStarted {
+        display: block;
+    }
+
+    .getStarted>* {
+        width: 100%;
+        border: none;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sellC {
+        display: block;
+    }
+
+    .promotionSeo {
+        display: block;
+    }
+
+    .logo {
+        margin-bottom: 2rem;
+    }
+
+    .miniArticles {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cardArticle {
+        margin-bottom: 2rem;
+    }
+}

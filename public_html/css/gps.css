@@ -1,0 +1,288 @@
+.main {
+    display: block;
+    padding-top: 4rem;
+}
+
+.getPremium {
+    background-image: url("Group107.png");
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.titleH1 {
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+.titleH2 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #494949;
+}
+
+.iconP {
+    display: inline-block;
+    color: #008000;
+}
+
+.ulP {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    font-weight: 700;
+    color: #494949;
+    margin-bottom: 3rem;
+}
+
+.btnP {
+    padding: .5rem 1.4rem;
+    border: 2px solid green;
+    border-radius: 25px;
+    background: none;
+    color: green;
+    font-weight: 700;
+    transition: color .3s, background .3s;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.btnP:hover {
+    background: #008000;
+    color: #fff;
+}
+
+.titleCharacteristics {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.characteristicsChart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.characteristic {
+    text-align: center;
+    padding: 2.5rem 3rem;
+    border: 1.5px solid #cccccc;
+}
+
+.characteristic:nth-child(1),
+.characteristic:nth-child(4) {
+    background-color: rgba(223, 223, 223, 0.22);
+}
+
+.imgCharacteristic {
+    max-width: 150px;
+}
+
+.titleCharacteristic {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.descriptionCharacteristic {
+    color: #212529;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.plains {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .3rem;
+    padding-bottom: 3rem;
+}
+
+.plain {
+    border: 2px solid rgba(128, 128, 128, 0.22);
+    border-radius: 5px;
+    transition: border .3s;
+}
+
+.plain:hover {
+    border: 2px solid #0090bf;
+}
+
+.titleCP {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.subTitleCP {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.titlePlain {
+    padding: 1rem 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: background .3s;
+}
+
+.titlePlain.active {
+    background-color: #0090bf;
+    border-radius: 2px 2px 0 0;
+}
+
+.benefits {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    color: #494949;
+    font-weight: 300;
+    line-height: 1.5;
+    transition: border .3s;
+}
+
+.benefits.active {
+    border-top: 1px solid #0090bf;
+}
+
+.price {
+    padding: 2rem 0;
+    font-size: 4rem;
+}
+
+.listPlain {
+    margin-bottom: 2rem;
+}
+
+.liPlain {
+    padding: .8rem 0;
+    background-color: #f3f3f3;
+    margin: 0;
+    width: 100%;
+}
+
+.liPlain:nth-child(2) {
+    background-color: #fff;
+}
+
+.liPlain:nth-child(3) {
+    color: #0090bf;
+}
+
+.btnB {
+    border-color: #0090bf;
+    color: #0090bf;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    transition: background .3s .1s, color .3s .1s;
+}
+
+.btnB:hover {
+    background: #0090bf;
+    color: #fff;
+}
+
+.btnB.active {
+    background: #0090bf;
+    color: #fff;
+}
+
+.titleBgp {
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.bgp {
+    background-color: rgba(211, 211, 211, 0.27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.imgBgp {
+    max-width: 230px;
+    width: 30%;
+}
+
+.proBgp {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .9rem 2rem;
+    border-radius: 25px;
+}
+
+.descriptionBgp {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+    border-radius: 25px;
+}
+
+.contentFaqs {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.contentFaqs>p {
+    margin-bottom: 1rem;
+}
+
+@media(max-width: 768px) {
+    .ulP {
+        display: block;
+    }
+
+    .ulP>* {
+        margin-bottom: 1rem;
+    }
+
+    .characteristics {
+        padding: 0;
+    }
+
+    .characteristicsChart {
+        display: block;
+    }
+
+    .plains {
+        display: block;
+        padding: 1rem;
+    }
+
+    .plains>* {
+        margin-bottom: 1rem;
+    }
+
+    .bgp {
+        display: block;
+    }
+
+    .imgBgp {
+        width: 75%;
+        margin-bottom: 2rem;
+    }
+
+    .faqs {
+        padding: 1rem;
+    }
+
+    .contPlains {
+        padding: 0;
+    }
+}

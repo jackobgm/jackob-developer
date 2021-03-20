@@ -1,0 +1,254 @@
+body {
+    background-color: #d1deeb;
+}
+
+ul {
+    list-style: none;
+}
+
+.line {
+    width: 35%;
+    margin: .3rem;
+    height: 3px;
+    background-color: #ccc;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.main {
+    padding: 0 1rem 1rem;
+    display: block;
+}
+
+.one,
+.two {
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    width: 70%;
+    background-color: #fff;
+}
+
+.cpl {
+    clip-path: polygon(0 0, 90% 0, 70% 100%, 0% 100%);
+}
+
+.cpr {
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+
+.cont {
+    padding: 1rem 2rem;
+    width: 70%;
+}
+
+.tTwo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleText {
+    font-size: 2rem;
+    color: #494949;
+    margin-bottom: 1.75rem;
+    font-weight: 700;
+}
+
+.descriptionText {
+    color: #787888;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.miniTitle {
+    color: #494949;
+}
+
+.linkText {
+    color: #4682b4;
+}
+
+.cImg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.img {
+    width: 70%;
+    max-width: 600px;
+}
+
+.iconLi {
+    color: green;
+    margin-right: 0.3rem;
+    display: inline-block;
+}
+
+.liDescriptionDivision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.liDescription {
+    line-height: 2;
+    color: #787888;
+}
+
+.ulDescription {
+    font-size: 0.9rem;
+}
+
+.plans {
+    padding: 2rem 1rem;
+    background: transparent linear-gradient(180deg, #FFFFFF 20%, #d1deeb 70%);
+}
+
+.contTitlePlans {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hrp {
+    width: 35%;
+    display: inline-block;
+    height: 2.5px;
+    border: none;
+    background-color: #0090BF;
+}
+
+.titlePlan {
+    display: inline-block;
+    color: #009dd1;
+    font-size: 2rem;
+}
+
+.contCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 2rem 5rem;
+}
+
+.card {
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 5rem;
+}
+
+
+
+.titleCards {
+    padding: .5rem 0;
+    font-size: 2rem;
+    background-color: var(--Background);
+    font-weight: 700;
+    color: var(--Title);
+}
+
+.priceCard {
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.dollar {
+    margin-right: 0.3rem;
+}
+
+.ulCard {
+    text-align: left;
+    padding: 0 2rem;
+    margin-bottom: .5rem;
+}
+
+.liDescription {
+    line-height: 3;
+}
+
+.tagCard {
+    background-color: #123149;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.2rem .6rem;
+    border-radius: 15px;
+    margin: 1rem;
+    display: inline-block;
+}
+
+.descriptionSDa {
+    color: #494949;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.daISpan {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.btnCard {
+    padding: .75rem 3rem;
+    border: 3px solid var(--Background);
+    border-radius: 15px;
+    background: none;
+    color: var(--Background);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    transition: color .3s, background .3s;
+}
+
+.btnCard:hover {
+    background-color: var(--Background);
+    color: #fff;
+}
+
+.card:nth-child(1) {
+    --Background: #8AD6F2;
+    --Title: #000000;
+}
+
+.card:nth-child(2) {
+    --Background: #0090BF;
+    --Title: #ffffff;
+}
+
+.card:nth-child(3) {
+    --Background: #123147;
+    --Title: #ffffff;
+}
+
+@media(max-width:1200px) {
+    .cont {
+        width: 100%;
+    }
+
+    .cpl,
+    .cpr {
+        clip-path: none;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .cImg {
+        display: none;
+    }
+
+    .contCards {
+        display: block;
+    }
+
+    .contCards>* {
+        margin-bottom: 2rem;
+    }
+}

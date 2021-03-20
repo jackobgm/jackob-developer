@@ -1,0 +1,48 @@
+.div-account {
+	margin: 4rem 0 !important;
+}
+
+.section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.section-grey {
+    background: #fafafa;
+}
+
+.section-border-bottom {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.text-account-heading {
+	font-weight: 400;
+	margin-bottom: 0;
+	font-size: 24px;
+	padding-top: 8px;
+}
+
+.btn-account-edit {
+	cursor: pointer;
+	background: #0090bf !important;
+	border-color: #0088b4 #0088b4 #00698b !important;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.btn-account-edit:hover {
+	background: #00789f !important;
+	border-color: #00789f #00789f #00698b !important;
+}
+
+.form-row {
+    padding-bottom: 10px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}

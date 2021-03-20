@@ -1,0 +1,27 @@
+.my-top-bar a {
+    color: yellow !important;
+}
+
+.btn-advertiser {
+	border: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	padding: .5rem .75rem;
+	font-size: 1rem;
+	line-height: 1.25;
+	border-radius: .25rem;
+	transition: all .15s ease-in-out;
+	text-decoration: none;
+	color: #0068a3 !important;
+}
+
+.btn-advertiser:hover {
+	background: #f4f4f4;
+	text-decoration: none;
+	color: #014e7a;
+}
